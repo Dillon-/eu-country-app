@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a CountryListCell 1`] = `
+<View
+  style={undefined}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    Sweden
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={undefined}
+  >
+    Northern Europe
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={undefined}
+  >
+    Stockholm
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={undefined}
+  >
+    Lang: 
+    Swedish
+  </Text>
+</View>
+`;

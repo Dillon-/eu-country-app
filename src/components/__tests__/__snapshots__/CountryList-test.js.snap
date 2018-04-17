@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a CountryList 1`] = `
+<RCTScrollView
+  ItemSeparatorComponent={undefined}
+  data={
+    Array [
+      Object {
+        "data": Array [
+          Object {
+            "capital": "Washington DC",
+            "languages": Array [
+              Object {
+                "name": "English",
+              },
+            ],
+            "name": "USA",
+            "subregion": "North America",
+          },
+          Object {
+            "capital": "Ottawa",
+            "languages": Array [
+              Object {
+                "name": "English",
+              },
+              Object {
+                "name": "French",
+              },
+            ],
+            "name": "Canada",
+            "subregion": "North America",
+          },
+        ],
+        "title": "North America",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  invertStickyHeaders={undefined}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  onViewableItemsChanged={undefined}
+  renderItem={[Function]}
+  renderSectionHeader={[Function]}
+  scrollEventThrottle={50}
+  sections={
+    Array [
+      Object {
+        "data": Array [
+          Object {
+            "capital": "Washington DC",
+            "languages": Array [
+              Object {
+                "name": "English",
+              },
+            ],
+            "name": "USA",
+            "subregion": "North America",
+          },
+          Object {
+            "capital": "Ottawa",
+            "languages": Array [
+              Object {
+                "name": "English",
+              },
+              Object {
+                "name": "French",
+              },
+            ],
+            "name": "Canada",
+            "subregion": "North America",
+          },
+        ],
+        "title": "North America",
+      },
+    ]
+  }
+  stickyHeaderIndices={Array []}
+  stickySectionHeadersEnabled={false}
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={undefined}
+      >
+        North America
+      </Text>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={undefined}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          USA
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={undefined}
+        >
+          North America
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={undefined}
+        >
+          Washington DC
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={undefined}
+        >
+          Lang: 
+          English
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={undefined}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          Canada
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={undefined}
+        >
+          North America
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={undefined}
+        >
+          Ottawa
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={undefined}
+        >
+          Lang: 
+          English, French
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    />
+  </View>
+</RCTScrollView>
+`;
