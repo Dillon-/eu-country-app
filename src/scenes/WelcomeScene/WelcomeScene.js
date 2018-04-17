@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { StatusBar, Text, View } from 'react-native';
 import PropTypes from 'prop-types';
 import { Button } from 'components';
 import styles from './styles';
 
 class WelcomeScene extends Component {
+
+  componentWillMount() {
+    StatusBar.setBarStyle('light-content');
+  }
+
   handlePressStart = () => {
     this.props.navigation.navigate('CountryListScene');
   }
