@@ -34,6 +34,6 @@ The app consists of 5 directories inside the `src` directory:
 * `eslint` and `eslint-config-airbnb` for code linting
 ## Potential Future Improvements
 These are some potential future improvements I would make if I knew that the app is likely to grow in size.
-* Abstract loading behavior by writing a HOC class or using a library like `react-native-loading-container` depending on the required behaviour in case of issues like internet connectivity issues.
+* Abstract loading behavior by writing a HOC class or using a library like `react-native-loading-container` depending on the required behaviour in case of issues like loss of internet connectivity.
 * Write E2E tests using something like `detox` to test the whole flow including edge cases such as when internet connectivity is lost
 * Use a state container like `redux` or `MobX` if the app grows in complexity. This is very easy to do, however I felt this was overkill for such a simple app.
