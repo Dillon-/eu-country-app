@@ -6,7 +6,7 @@ import styles from './styles';
 
 class WelcomeScene extends Component {
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     StatusBar.setBarStyle('light-content');
   }
 
@@ -30,6 +30,11 @@ class WelcomeScene extends Component {
     )
   }
 }
+
+WelcomeScene.navigationOptions = {
+  headerShown: false
+  ,
+};
 
 WelcomeScene.propTypes = {
   navigation: PropTypes.object.isRequired,

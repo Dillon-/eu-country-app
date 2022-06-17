@@ -4,7 +4,7 @@ import { CountryListContainer } from 'containers';
 import styles from './styles';
 
 class CountryListScene extends Component {
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     StatusBar.setBarStyle('dark-content');
   }
 
@@ -14,6 +14,19 @@ class CountryListScene extends Component {
         <CountryListContainer regionalBloc="eu" />
       </View>
     );
+  }
+}
+
+CountryListScene.navigationOptions = {
+  title: 'Countries',
+  headerLeft: () => null,
+  headerStyle: { 
+    backgroundColor: '#FFCC00',
+  },
+  Title: 'Countries',
+  TitleStyle: {
+    fontSize: 26,
+    fontWeight: '800'
   }
 }
 

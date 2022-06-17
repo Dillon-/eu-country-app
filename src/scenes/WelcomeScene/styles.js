@@ -1,4 +1,4 @@
-import EStyleSheet from 'react-native-extended-stylesheet';
+import EStyleSheet from 'react-native-extended-stylesheet-forked';
 
 export default EStyleSheet.create({
   container: {
