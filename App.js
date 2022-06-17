@@ -32,33 +32,3 @@ export default () => {
   )
 
 };
-
-/*
-// /\ - New
-----------------------------------
-// \/ - Existing
-
-
-export default StackNavigator({
-  WelcomeScene: {
-    screen: WelcomeScene,
-    navigationOptions: {
-      header: null,
-    },
-  },
-  CountryListScene: {
-    screen: CountryListScene,
-    navigationOptions: {
-      headerLeft: null,
-      headerStyle: {
-        backgroundColor: EStyleSheet.value('$yellow'),
-      },
-      headerTitle: 'Countries',
-      headerTitleStyle: {
-        fontSize: 26,
-        fontWeight: '800'
-      }
-    }
-  },
-});
-*/

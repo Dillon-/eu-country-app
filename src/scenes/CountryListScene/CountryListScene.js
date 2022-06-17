@@ -23,11 +23,11 @@ CountryListScene.navigationOptions = {
   headerStyle: { 
     backgroundColor: '#FFCC00',
   },
-  Title: 'Countries',
-  TitleStyle: {
+    headerTitleStyle: {
     fontSize: 26,
     fontWeight: '800'
-  }
+  },
+
 }
 
 export default CountryListScene;
